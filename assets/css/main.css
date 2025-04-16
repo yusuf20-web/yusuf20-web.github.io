@@ -52,7 +52,15 @@
   --contrast-color: #ffffff;
 }
 
+.grey-background {
+  --background-color:rgb(146, 146, 146);
+  --surface-color: #ffffff;
+}
 
+.light-grey-background {
+  --background-color:rgb(240, 239, 239);
+  --surface-color: #ffffff;
+}
 
 /* Smooth scroll */
 :root {
@@ -227,7 +235,7 @@ h6 {
 
 .header .header-toggle {
   color: var(--contrast-color);
-  background-color: var(--accent-color);
+  background-color: var(--nav-color);
   font-size: 22px;
   display: flex;
   align-items: center;
@@ -311,7 +319,7 @@ h6 {
 .navmenu a:hover,
 .navmenu .active,
 .navmenu .active:focus {
-  color: var(--nav-hover-color);
+  color: var(--accent-color);
 }
 
 .navmenu a:hover .navicon,
@@ -430,7 +438,7 @@ h6 {
   right: 15px;
   bottom: -15px;
   z-index: 99999;
-  background-color: var(--accent-color);
+  background-color: var(--default-color);
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -533,7 +541,7 @@ section,
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--accent-color);
+  background: rgb(0, 0, 0);
   left: 0;
   bottom: 0;
 }
@@ -736,7 +744,7 @@ section,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
+  border-left: 2px solid var(--default-color);
   position: relative;
 }
 
@@ -745,7 +753,7 @@ section,
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: color-mix(in srgb, var(--default-color), transparent 50%);
   margin-bottom: 10px;
 }
 
@@ -778,7 +786,7 @@ section,
   left: -9px;
   top: 0;
   background: var(--background-color);
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--default-color);
 }
 
 
@@ -953,8 +961,8 @@ section,
 
 .contact .info-item i {
   font-size: 20px;
-  color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  color: var(--default-color);
+  background: color-mix(in srgb, var(--default-color), transparent 92%);
   width: 44px;
   height: 44px;
   display: flex;
@@ -976,10 +984,16 @@ section,
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
+  color: #272829;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact .info-item:hover p{
+  color: #149ddd;
 }
 
 .contact .info-item:hover i {
-  background: var(--accent-color);
+  background: var(--nav-color);
   color: var(--contrast-color);
 }
 
@@ -1036,7 +1050,7 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
+/* .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
 
@@ -1092,7 +1106,7 @@ section,
 .portfolio-details .portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
+} */
 
 /*--------------------------------------------------------------
 # Service Details Section
