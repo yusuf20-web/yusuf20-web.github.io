@@ -9,8 +9,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/myicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/myIcon.png" rel="icon">
+  <link href="assets/img/myIcon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -25,8 +25,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
+  <!-- Main & Custom CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio
@@ -47,7 +48,7 @@
       <img src="assets/img/myPic-copy.jpg" alt="" class="img-fluid rounded-circle bg-grey">
     </div>
 
-    <a href="index.php" class="logo d-flex align-items-center justify-content-center">
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
       <h1 class="sitename">Selamat Datang</h1>
     </a>
 
@@ -298,40 +299,75 @@
       <!-- Project Card 1 -->
       <div class="col">
         <div class="card text-white h-100 border border-dark border-2">
-          <img src="assets/img/myPic3.jpg" class="card-img-top img-fluid rounded-0" style="max-height: 250px; object-fit: cover;" alt="Project 2">              
+          <img src="assets/project/laundry-system/Dashboard.png" class="card-img-top img-fluid rounded-0" style="max-height: 250px; object-fit: cover;" alt="Project 1">              
           <div class="card-body bg-white text-dark">
-            <h5 class="card-title">Project 1</h5>
-            <p class="card-text">Deskripsi singkat tentang project ini yang cukup menarik perhatian.</p>
-              <button class="btn btn-primary w-100 m-auto text-uppercase fw-semibold" data-bs-toggle="modal" data-bs-target="#projectModal1"> Read More </button>
+            <h5 class="card-title fw-bold text-uppercase">Sistem Transaksi Laundry</h5>
+            <p class="card-text mb-2">Sistem Transaksi Laundry menggunakan PHP dan Bootstrap</p>
+            <button class="btn btn-primary w-100 mt-5 text-uppercase fw-semibold open-modal-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-title="Sistem Transaksi Laundry"
+              data-description="*Sistem ini dibuat dengan PHP Native untuk mengelola transaksi laundry harian.*"
+              data-category="Web Development"
+              data-projectfor="Uji Kompetensi Web Programming"
+              data-month="April, 2025"
+              data-url="https://github.com/yusuf-20web/sistem-laundry"
+              data-image="assets/project/laundry-system/Dashboard.png,assets/project/laundry-system/User-data.png,assets/project/laundry-system/Trans-Data.png"
+              data-caption="Tampilan Dashboard,Tampilan Data User,Tampilan Data Transaksi">
+              Read More
+            </button>
           </div>
         </div>
       </div>  
+
       <!-- Project Card 2 -->
       <div class="col">
-        <div class="card text-white h-100 border-dark border-2">
+        <div class="card text-white h-100 border border-dark border-2">
           <img src="assets/img/myPic3.jpg" class="card-img-top img-fluid rounded-0" style="max-height: 250px; object-fit: cover;" alt="Project 2">              
           <div class="card-body bg-white text-dark">
-            <h5 class="card-title">Project 2</h5>
-            <p class="card-text">Deskripsi singkat tentang project ini yang cukup menarik perhatian.</p>
-              <button class="btn btn-primary w-100 m-auto text-uppercase fw-semibold" data-bs-toggle="modal" data-bs-target="#projectModal2"> Read More </button>
+            <h5 class="card-title fw-bold text-uppercase">Sosmed Statis Sederhana</h5>
+            <p class="card-text mb-2">Sosmed Statis Sederhana menggunakan PHP dan Bootstrap</p>
+            <button class="btn btn-primary w-100 m-auto text-uppercase fw-semibold open-modal-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-title="Projek 2"
+              data-description="Sedang dalam pengembangan"
+              data-category="Web Design"
+              data-projectfor="-"
+              data-month="Feb. 2025"
+              data-url="-"
+              data-image="assets/img/myPic3.jpg">
+              Read More
+            </button>
           </div>
         </div>
       </div>  
+
       <!-- Project Card 3 -->
       <div class="col">
-        <div class="card text-white h-100 border-dark border-2">
+        <div class="card text-white h-100 border border-dark border-2">
           <img src="assets/img/myPic3.jpg" class="card-img-top img-fluid rounded-0" style="max-height: 250px; object-fit: cover;" alt="Project 3">              
           <div class="card-body bg-white text-dark">
-            <h5 class="card-title">Project 3</h5>
-            <p class="card-text">Deskripsi singkat tentang project ini yang cukup menarik perhatian.</p>
-              <button class="btn btn-primary w-100 m-auto text-uppercase fw-semibold" data-bs-toggle="modal" data-bs-target="#projectModal3"> Read More </button>
+            <h5 class="card-title fw-bold text-uppercase">Sistem Aplikasi Perpustakaan</h5>
+            <p class="card-text mb-2">Sistem Aplikasi Perpustakaan menggunakan PHP dan Bootstrap</p>
+            <button class="btn btn-primary w-100 m-auto text-uppercase fw-semibold open-modal-btn"
+              data-bs-toggle="modal"
+              data-bs-target="#projectModal"
+              data-title="Projek 2"
+              data-description="Sedang dalam pengemabngan"
+              data-category="-"
+              data-projectfor="-"
+              data-month="-"
+              data-url="-"
+              data-image="assets/img/myPic3.jpg">
+              Read More
+            </button>
           </div>
         </div>
       </div>  
-      
-      
+
     </div>
-</div>
+  </div>
 </section>
 <!-- End Portfolio Section -->
 
@@ -343,14 +379,12 @@
         <h2>Kontak</h2>
         <p>Jika tertarik dengan portfolio saya untuk dijadikan kandidat sebagai karyawan, silahkan hubungi kontak dibawah ini</p>
       </div><!-- End Section Title -->
-
+    
       <!-- Info Item -->
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
+    
         <div class="row gy-4">
-
-          <div class="col-6">
-
+          <div class="col-12 col-md-6"> <!-- Responsif di kolom -->
             <div class="info-wrap">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
                 <i class="bx bxl-whatsapp flex-shrink-0"></i>
@@ -359,7 +393,7 @@
                   <a href="https://wa.me/6282122415164" target="_blank"><p>+62 821-2241-5164</p></a>
                 </div>
               </div>
-
+    
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
@@ -367,7 +401,7 @@
                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=muhyusuffirdaus20@gmail.com" target="_blank"><p>muhyusuffirdaus20@gmail.com</p></a>
                 </div>
               </div>
-
+    
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-instagram flex-shrink-0 "></i>
                 <div>
@@ -375,7 +409,7 @@
                   <a href="https://www.instagram.com/muhysff20/" target="_blank"><p>Muhammad Yusuf Firdaus</p></a>
                 </div>
               </div>
-
+    
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
                 <i class="bi bi-linkedin flex-shrink-0"></i>
                 <div>
@@ -385,8 +419,8 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
-
+    
+          <div class="col-12 col-md-6"> <!-- Responsif di kolom -->
             <div class="info-wrap">
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
@@ -395,13 +429,16 @@
                   <p>Jl. Johar Baru IV A, Gg L, Johar Baru, Jakarta Pusat</p>
                 </div>
               </div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6503687829137!2d106.86051016961262!3d-6.184057166311659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f45713023401%3A0x2f903c5b49ae4618!2sGg.%20R%20No.5%204%2C%20RT.4%2FRW.5%2C%20Johar%20Baru%2C%20Kec.%20Johar%20Baru%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010560!5e0!3m2!1sen!2sid!4v1737124883486!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              
+              <!-- Map -->
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6503687829137!2d106.86051016961262!3d-6.184057166311659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f45713023401%3A0x2f903c5b49ae4618!2sGg.%20R%20No.5%204%2C%20RT.4%2FRW.5%2C%20Johar%20Baru%2C%20Kec.%20Johar%20Baru%2C%20Kota%20Jakarta%20Pusat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2010560!5e0!3m2!1sen!2sid!4v1737124883486!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
-
+    
     </section><!-- /Contact Section -->
 
   </main>
@@ -424,76 +461,41 @@
   </footer>
 
   <!-- Portfolio Modal -->
+    <!-- Universal Modal -->
+    <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title modal-project-title">Judul Projek</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            <!-- Carousel -->
+            <div id="carouselProjectImages" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
 
-  <!-- Modal Project 1 -->
-  <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModalLabel1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="projectModalLabel1">Ini Projek 1</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/writely-preview.jpg" class="img-fluid mb-3" alt="Writely">
-          <ul class="list-unstyled mb-3">
-            <li><strong>Category:</strong> Web Development</li>
-            <li><strong>Client:</strong> Self Project</li>
-            <li><strong>Project Month:</strong> Jan. 2025</li>
-            <li><strong>Project URL:</strong> <a href="https://github.com/ebenhaiser/writely-project" target="_blank">GitHub Repo</a></li>
-          </ul>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae animi quos nulla suscipit quod quam ipsam quas fugit optio quibusdam deleniti recusandae, quis dolore cumque eveniet sequi voluptatum eos? Deleniti.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal Project 2 -->
-  <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModalLabel2" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="projectModalLabel1">Ini Projek 2</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/writely-preview.jpg" class="img-fluid mb-3" alt="Writely">
-          <ul class="list-unstyled mb-3">
-            <li><strong>Category:</strong> Web Development</li>
-            <li><strong>Client:</strong> Self Project</li>
-            <li><strong>Project Month:</strong> Jan. 2025</li>
-            <li><strong>Project URL:</strong> <a href="https://github.com/ebenhaiser/writely-project" target="_blank">GitHub Repo</a></li>
-          </ul>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae animi quos nulla suscipit quod quam ipsam quas fugit optio quibusdam deleniti recusandae, quis dolore cumque eveniet sequi voluptatum eos? Deleniti.
-          </p>
+              </div>
+              <!-- Carousel Controls -->
+                <button class="carousel-control-prev custom-carousel-btn" type="button" data-bs-target="#carouselProjectImages" data-bs-slide="prev">
+                  <span class="carousel-control-icon"><i class="bi bi-caret-left-fill"></i></span>
+                </button>
+                <button class="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carouselProjectImages" data-bs-slide="next">
+                  <span class="carousel-control-icon"><i class="bi bi-caret-right-fill"></i></span>
+                </button>
+            </div>
+              <hr/>
+            <ul class="list-unstyled mb-3">
+              <li><strong>Kategori Projek:</strong> <span class="modal-project-category"></span></li>
+              <li><strong>Tujuan Projek:</strong> <span class="modal-project-projectfor"></span></li>
+              <li><strong>Projek Dibuat:</strong> <span class="modal-project-month"></span></li>
+              <li><strong>URL Projek:</strong> <a href="#" target="_blank" class="modal-project-url">Link</a></li>
+            </ul>
+            <hr/>
+            <p class="modal-project-description fst-italic fw-bold"></p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Modal Project 3 -->
-  <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModalLabel3" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="projectModalLabel1">Ini Projek 3</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img src="img/writely-preview.jpg" class="img-fluid mb-3" alt="Writely">
-          <ul class="list-unstyled mb-3">
-            <li><strong>Category:</strong> Web Development</li>
-            <li><strong>Client:</strong> Self Project</li>
-            <li><strong>Project Month:</strong> Jan. 2025</li>
-            <li><strong>Project URL:</strong> <a href="https://github.com/ebenhaiser/writely-project" target="_blank">GitHub Repo</a></li>
-          </ul>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae animi quos nulla suscipit quod quam ipsam quas fugit optio quibusdam deleniti recusandae, quis dolore cumque eveniet sequi voluptatum eos? Deleniti.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -502,9 +504,9 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
@@ -514,6 +516,7 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
   <!-- Main JS File -->
+  <script src="assets/js/project-modal.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
